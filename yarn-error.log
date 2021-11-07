@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js test:unit
+
+PATH: 
+  /usr/share/rvm/gems/ruby-2.5.1/bin:/usr/share/rvm/gems/ruby-2.5.1@global/bin:/usr/share/rvm/rubies/ruby-2.5.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/share/rvm/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/shagufta/craftAcademyDemos/bmi_challenge/package.json: Unexpected string in JSON at position 304
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "bmi_challenge",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+      "cypress": "^8.7.0",
+      "jest": "^27.3.1"
+    },
+    "devdependencies": {
+      "browser-sync": "^2.27.7",
+      "superstatic": "^7.1.0"
+    },
+    "scripts": {
+  
+      "start": "node serve.js"
+      "test:unit": "jest --passWithNoTests --rootdir=spec"
+      
+  
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
