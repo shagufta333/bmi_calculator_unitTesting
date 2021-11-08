@@ -18,7 +18,7 @@ describe('BMIcalculator', () => {
             
           });
 
-          it('is expected to return a classfication of "obesity class 1 "', () => {
+          it('is expected to return a classfication of "normal "', () => {
             expect(bmiResults.classification).toEqual("normal")
            });
 

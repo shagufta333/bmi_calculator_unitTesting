@@ -11,8 +11,8 @@
   },
   "scripts": {
 
-    "start": "node serve.js",
-    "test:unit": "jest --passWithNoTests --rootdir=spec"
+    "start": "superstatic src",
+    "test": "cypress open"
     
 
   }
