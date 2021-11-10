@@ -12,6 +12,7 @@
   "scripts": {
 
     "start": "superstatic src",
+    "test:unit": "jest --passWithNoTests --rootDir=spec",
     "test": "cypress open"
     
 
